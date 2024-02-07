@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/peter/repos/led_lamp_control/555/kicad/schematic/schematic.kicad_sch</source>
+    <date>Tue 06 Feb 2024 18:24:59 GMT</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>schematic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af7ad60f-61ea-4a75-80a1-c75b293c921e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.22uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7566e6b-7871-4148-af7d-8106927a8b77</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.22uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67ccb944-4432-46f6-8417-8d68daf63436</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d42ddc-c937-41c7-b87c-fe1a496b9b7f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>305f4b4e-bb09-4dd2-8a7a-72ee18a3c317</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae1d5d9-ff38-4df1-bf18-dd6cd8c70511</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Series</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="LED_Series" description="Several LEDs in series"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3a06a6e-3a27-466a-b839-e9feb1ee902b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf782850-7ab8-4961-827a-d0625e4db4d9</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7bea4b6-5d9b-4943-a4ee-af958f10e483</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED_Series</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="LED_Series" description="Several LEDs in series"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a6767e0-2d77-476c-b45d-0002c0b4226e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be6ea258-543f-4195-be61-dcac571848fd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLB8721PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</datasheet>
+      <libsource lib="Transistor_FET" part="IRLB8721PBF" description="62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af567901-3b5f-4f85-a667-d15f0805e0ed</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLB8721PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</datasheet>
+      <libsource lib="Transistor_FET" part="IRLB8721PBF" description="62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f26fa01a-d389-46bc-9e48-443f182af071</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e888ddd-cfb7-4e8e-8fcf-fd66e710ff24</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>868420dc-bf58-4743-8d95-a0c3fe5d5c2f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee110e9a-a5cb-47ce-ba65-6d35bb877ea0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0130066-f120-45ab-8ca4-de7cd402c362</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>R_Potentiometer</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99794c2d-8dad-4938-9dad-78984fc87fa4</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>R_Potentiometer</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c3ef0fc-cfa8-4145-9a16-a4c7dd531545</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM555xN</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <libsource lib="Timer" part="LM555xN" description="Timer, 555 compatible, PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>709f0c67-3c96-4657-9801-2ede7f172384</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM555xN</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <libsource lib="Timer" part="LM555xN" description="Timer, 555 compatible, PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dd8050b-55d2-401d-b65f-a7391794664a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74HC04</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="Hex Inverter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="schematic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9248286-9403-415e-8085-eb76c1d0312a e3364411-9d69-4ec4-b9cb-290907c32883 c71b53c6-2999-49cf-9bd8-62260d478fcc 80697804-ae0d-4413-b15d-2ba0ab0c28a3 c70fc761-8575-4588-92f8-8f2c47c8bc62 a3034ace-daa3-4c2a-a51a-bc00dd5e10ab 60478cf2-eeac-48a0-9027-5e705d06fc5b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC04">
+      <description>Hex Inverter</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC04</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Series">
+      <description>Several LEDs in series</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Series</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555xN">
+      <description>Timer, 555 compatible, PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555xN</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRLB8721PBF">
+      <description>62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220</description>
+      <docs>http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLB8721PBF</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/symbols//Timer.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="11" pintype="input"/>
+      <node ref="U3" pin="13" pintype="input"/>
+      <node ref="U3" pin="5" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U3" pin="1" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U3" pin="3" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pintype="output"/>
+    </net>
+    <net code="22" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pintype="output"/>
+    </net>
+    <net code="23" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pintype="output"/>
+    </net>
+    <net code="24" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pintype="output"/>
+    </net>
+  </nets>
+</export>
